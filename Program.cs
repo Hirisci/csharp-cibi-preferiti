@@ -36,3 +36,7 @@ if (foodEven.Length % 2 == 0)
     Console.WriteLine($"Cibo intermedio: {food[food.Length / 2]}");
     Console.WriteLine($"Cibo intermedio: {food[(food.Length / 2) + 1]}");
 }
+
+
+
+//comitt
