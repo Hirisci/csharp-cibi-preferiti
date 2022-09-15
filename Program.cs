@@ -31,12 +31,9 @@ Console.WriteLine();
 Console.WriteLine();
 //Attenzione: gestire anche il caso se aveste una classifica con un numero di elementi pari. In questo caso vanno stampati i 2 elementi in centro alla vostra classifica.
 String[] foodEven = { "Sushi", "Pizza", "Lasagne", "Pasta al Forno", "Carbonara", "Spagetti con le vongole" };
+
+Console.WriteLine($"Cibo intermedio: {food[food.Length / 2]}");
 if (foodEven.Length % 2 == 0)
 {
-    Console.WriteLine($"Cibo intermedio: {food[food.Length / 2]}");
-    Console.WriteLine($"Cibo intermedio: {food[(food.Length / 2) + 1]}");
+    Console.WriteLine($"Cibo intermedio: {food[(food.Length / 2) - 1]}");
 }
-
-
-
-//comitt
